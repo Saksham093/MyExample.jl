@@ -3,8 +3,6 @@ using Test
 
 @testset "MyExample.jl" begin
     # Write your tests here.
-    MyExample.greet()
-
 
     # 2x + 4y
     @test my_f(2, 1) == 8

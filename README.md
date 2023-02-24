@@ -13,4 +13,4 @@ julia> my_f(2,4)
 ```
 
 ## Suggestions are welcome
-`Keep Exploring`
+`Keep Exploring ❤`
