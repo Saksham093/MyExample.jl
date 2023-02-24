@@ -12,4 +12,7 @@ using Test
     @test my_f(2, 2) == 12
     @test my_f(2, 3) == 16
     @test my_f(2, 4) == 20
+
+    # For new check
+    @test my_f(2, 4) == 21
 end
