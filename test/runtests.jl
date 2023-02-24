@@ -1,18 +1,5 @@
-using MyExample
-using Test
+using SafeTestsets
 
-
-@testset "MyExample.jl" begin
-    # Write your tests here.
-    MyExample.greet()
-
-
-    # 2x + 4y
-    @test my_f(2, 1) == 8
-    @test my_f(2, 2) == 12
-    @test my_f(2, 3) == 16
-    @test my_f(2, 4) == 20
-
-    # For new check
-    @test my_f(2, 4) == 20
+@safetestset "My F Tests" begin
+	include("my_f_tests.jl")
 end
