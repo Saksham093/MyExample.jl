@@ -20,7 +20,10 @@ jobs:
         version:
           - '1.0'
           - '1.8'
+          - '1.10'
           - 'nightly'
+        allow_failures:
+          - 'julia: 1.10'
         os:
           - ubuntu-latest
         arch:
