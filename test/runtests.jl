@@ -14,5 +14,5 @@ using Test
     @test my_f(2, 4) == 20
 
     # For new check
-    @test my_f(2, 4) == 21
+    @test my_f(2, 4) == 20
 end
